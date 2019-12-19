@@ -1,0 +1,14 @@
+* {
+  border: 1px solid red;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  flex-direction: column;
+}

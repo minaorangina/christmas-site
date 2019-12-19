@@ -73,6 +73,7 @@ main {
 }
 
 .headline > h2 {
+  font-size: 30px;
   font-family: Apfel Grotezk, Arial, Helvetica, sans-serif;
   font-family: Anodina, Arial, Helvetica, sans-serif;
   font-weight: bolder;

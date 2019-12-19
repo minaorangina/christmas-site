@@ -1,8 +1,17 @@
+@font-face {
+  font-family: Kenfolg;
+  src: url("fonts/MADEKenfolg.woff") format("woff");
+  /* src: url("fonts/kenfolg.otf") format("opentype");
+  src: url("fonts/MADEKenfolg.ttf") format("truetype"); */
+}
+
 * {
   border: 1px solid red;
 }
 
 main {
+  flex-direction: column;
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,4 +20,14 @@ main {
 
 .headline {
   flex-direction: column;
+  /* width: 40%; */
+}
+
+.headline > h1 {
+  font-family: Kenfolg, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 80px;
+}
+
+.blurb {
+  /* width: 40%; */
 }

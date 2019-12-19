@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'MADEKenfolg';
+  src: url('MADEKenfolg.ttf') format('truetype'),
+       url('MADEKenfolg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

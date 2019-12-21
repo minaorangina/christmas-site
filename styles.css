@@ -2,17 +2,14 @@ body {
   background-color: var(--accentColour);
 }
 
- main {
+main {
   border: 10px solid var(--accentColour);
   flex-direction: column;
-
   background-color: var(--parchment);
-
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1em;
 }
 
 .headline {
@@ -66,7 +63,11 @@ a {
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 1024px){
+  main {
+    padding: 9em;
+  }
+
   .headline > h1 {
     font-size: 96px;
     margin: 0;
